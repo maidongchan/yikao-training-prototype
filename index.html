@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0f6b4f" />
+    <title>逐光艺考 · 三端体验原型</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="prototype-stage">
+      <div class="ambient-note" aria-hidden="true">
+        <span class="ambient-note__line"></span>
+        <span>PRODUCT PROTOTYPE / 2026</span>
+      </div>
+
+      <section class="phone-shell" aria-label="艺考培训学生、教师与教务三端原型">
+        <div class="phone-status">
+          <span id="status-time">09:41</span>
+          <span class="phone-status__island" aria-hidden="true"></span>
+          <span class="phone-status__icons" aria-hidden="true">
+            <i data-lucide="signal"></i>
+            <i data-lucide="wifi"></i>
+            <i data-lucide="battery-full"></i>
+          </span>
+        </div>
+
+        <header class="app-header" id="app-header"></header>
+        <main class="app-content" id="app-content" tabindex="-1"></main>
+        <nav class="tabbar" id="app-tabbar" aria-label="主导航"></nav>
+
+        <div class="sheet-layer" id="sheet-layer" aria-hidden="true">
+          <button
+            class="sheet-backdrop"
+            data-action="close-sheet"
+            aria-label="关闭弹窗"
+          ></button>
+          <section class="bottom-sheet" id="bottom-sheet" aria-modal="true"></section>
+        </div>
+
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      </section>
+
+      <aside class="prototype-mark" aria-hidden="true">
+        <div class="prototype-mark__glyph">ZG</div>
+        <div>
+          <strong>逐光艺考</strong>
+          <span>STUDENT / TEACHER / ADMIN</span>
+        </div>
+      </aside>
+    </div>
+
+    <script src="./lucide.min.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
