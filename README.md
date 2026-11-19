@@ -2,6 +2,12 @@
 
 面向艺考培训机构的产品原型，包含学生端、教师端与教务后台。
 
+## 在线演示
+
+https://maidongchan.github.io/yikao-training-prototype/
+
+![三端原型预览](./preview-triple.png)
+
 ## 体验内容
 
 - 学生端：课表、考勤与课消、视频点评、模拟考趋势、备考进度、师资、考学节点、请假。
